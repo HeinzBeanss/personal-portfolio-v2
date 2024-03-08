@@ -11,4 +11,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@keyframes moveRotate {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(2000px) rotate(180deg);
+  }
+  100% {
+    transform: translateX(0) rotate(360deg);
+  }
+}
 
+.animate-move-rotate {
+  animation: moveRotate 120s infinite linear;
+}

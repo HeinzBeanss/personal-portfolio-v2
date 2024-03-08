@@ -11,21 +11,13 @@ export default {
       },
       colors: {
         background: "#12121c",
-        // bad
-        // space: "#0b1f33",
-        // space1: "#04041c",
-        // space2: "#0b0b1e",
 
-        // good
         space: "#091926",
         space2: "#080814",
 
-        // maybe too dark?
-        // space: "#07141c",
-        // space2: "#080814",
-
-        surface: "#09796d",
-        lighter: " #0d8071",
+        surface: "#208fff",
+        lighter: "#a4ecff",
+        lightest: "#E4faff",
         words: "#B6CFCA",
         primary: "#ffffff",
         secondary: "#ffffff",
