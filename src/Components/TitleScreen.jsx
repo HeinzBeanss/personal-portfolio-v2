@@ -1,6 +1,3 @@
-import planet from "../assets/planet-portfolio-final.png";
-import planetlarge from "../assets/planet-portfolio-final-large.png";
-import planetnoglow from "../assets/planet-portfolio-final-noglow.svg";
 import planetsvg from "../assets/planet-portfolio-final-svg.svg";
 import star from "../assets/star.svg";
 
@@ -44,7 +41,7 @@ const TitleScreen = () => {
         <img
           src={star}
           alt="star"
-          className="absolute max-w-10 top-96 right-96 opacity-80"
+          className="absolute max-w-10 top-1/2 right-96 opacity-80"
         />
         <img
           src={star}
