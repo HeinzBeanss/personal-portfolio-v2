@@ -26,3 +26,76 @@
 .animate-move-rotate {
   animation: moveRotate 120s infinite linear;
 }
+
+.circle {
+  position: absolute;
+  fill: none;
+  stroke: #e4faff; /* Change stroke color as needed */
+  stroke-width: 0.5; /* Change stroke width as needed */
+  stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
+  stroke-dashoffset: 283; /* Initial value to hide the circle */
+  animation: drawCircle 4s linear forwards;
+}
+
+.circle-late {
+  position: absolute;
+  fill: none;
+  stroke: #e4faff; /* Change stroke color as needed */
+  stroke-width: 0.5; /* Change stroke width as needed */
+  stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
+  stroke-dashoffset: 283; /* Initial value to hide the circle */
+  animation: drawCircle 4s linear forwards;
+}
+
+@keyframes drawCircle {
+  0% {
+    stroke-dashoffset: 283; /* Full circle is hidden */
+  }
+  100% {
+    stroke-dashoffset: 0; /* Full circle is revealed */
+  }
+}
+
+.circle-repeat {
+  fill: none;
+  opacity: 0;
+  stroke: #e4faff; /* Change stroke color to white */
+  stroke-width: 0.5; /* Change stroke width as needed */
+  stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
+  stroke-dashoffset: 0; /* Initial value to reveal the entire circle */
+  animation: drawCircleRepeat 8s linear infinite; /* Adjust animation duration as needed */
+  /* animation-delay: 1s;  Add a delay of 1 second */
+}
+
+@keyframes drawCircleRepeat {
+  0% {
+    opacity: 100%;
+    stroke-dashoffset: 283; /* Full circle is hidden */
+  }
+  50% {
+    stroke-dashoffset: 0; /* Full circle is revealed */
+  }
+  100% {
+    opacity: 100%;
+    stroke-dashoffset: -283; /* Circle is hidden at the other end */
+  }
+}
+
+.circle-repeats {
+  fill: none;
+  stroke: #e4faff; /* Change stroke color to white */
+  stroke-width: 0.5; /* Change stroke width as needed */
+  stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
+  stroke-dashoffset: 0; /* Initial value to reveal the entire circle */
+  animation: drawCircleRepeat 8s linear forwards; /* Adjust animation duration as needed */
+  /* animation-delay: 1s;  Add a delay of 1 second */
+}
+
+@keyframes drawCircleRepeat {
+  0% {
+    stroke-dashoffset: -283; /* Full circle is hidden */
+  }
+  100% {
+    stroke-dashoffset: -20; /* Full circle is revealed */
+  }
+}

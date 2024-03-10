@@ -3,17 +3,16 @@ import star from "../assets/star.svg";
 
 const TitleText = () => {
   return (
-    <div className="relative w-full h-screen flex flex-col justify-center items-center pb-60 3xl:pb-96 gap-10">
+    <div className="relative w-full h-screen flex flex-col justify-center items-center pb-72 3xl:pb-96 gap-8">
       <h2 className="text-white text-8xl font-rubik transform">
-        {"I'm David"}
+        {"I'M DAVID"}
       </h2>
-      <p className="text-white font-thin tracking-wider text-xl bg-clip-text text-transparent bg-gradient-to-br from-lighter to-white opacity-80">
+      <p className="text-white font-thin tracking-wider text-xl opacity-80">
         a full-stack developer.
       </p>
       {/* <div className="absolute w-96 h-96 rounded-full bg-gray-500 -bottom-40 inset-x-1/2 transform -translate-x-1/2 drop-shadow-glow"></div> */}
       {/* <div className="rounded-full w-32 h-32 absolute bg-white bottom-28 inset-x-1/2 transform -translate-x-1/2 translate-y-1/3 drop-shadow-glow"></div> */}
       <img
-        // src={planet}
         src={planetsvg}
         alt="planet"
         className="absolute w-3/4 lg:max-w-screen-xl 3xl:max-w-full -bottom-16 3xl:-bottom-24 inset-x-1/2 transform -translate-x-1/2 translate-y-1/3"
