@@ -2,11 +2,11 @@ import AsteroidPNG from "/src/assets/ai-asteroid.png";
 
 const Asteroid = () => {
   return (
-    <div className="rotate-6">
+    <div className="rotate-6 absolute z-10">
       <img
         src={AsteroidPNG}
         alt="Asteroid"
-        className="w-40 h-40 animate-move-rotate -rotate-12 drop-shadow-glow"
+        className="w-40 h-40 animate-asteroid-one -rotate-12 drop-shadow-glow"
       ></img>
     </div>
   );

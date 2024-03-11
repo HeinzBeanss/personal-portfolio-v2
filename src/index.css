@@ -11,236 +11,62 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@keyframes moveRotate {
-  0% {
-    transform: translateX(2000px) rotate(0deg);
-  }
-  50% {
-  }
-  100% {
-    transform: translateX(-200px) rotate(180deg);
-  }
-}
-
-.animate-move-rotate {
-  animation: moveRotate 120s infinite linear;
-}
-
-.shooting-star {
-  animation: shootingStar 0.5s ease-in 5s;
-}
-@keyframes shootingStar {
-  0% {
-    transform: translateX(0) translateY(0) rotate(-35deg);
-  }
-  100% {
-    transform: translateX(-120vw) translateY(-120vh) rotate(-35deg);
-  }
-}
-
-.circle-small {
-  fill: none;
-  stroke: #e4faff;
-  stroke-width: 10;
+/* Underline Title Circles */
+.circle-underline {
   stroke-dasharray: 16;
   stroke-dashoffset: 283;
 }
 
-.test-svg-small {
-  animation: drawCircleTestTwo 4s infinite linear;
-}
-
-.test-svg-small-back {
-  animation: drawCircleTestTwoBack 4s infinite linear;
-}
-
-.circle {
-  position: absolute;
-  fill: none;
-  stroke: #e4faff; /* Change stroke color as needed */
-  stroke-width: 0.5; /* Change stroke width as needed */
-  stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
-  stroke-dashoffset: 283; /* Initial value to hide the circle */
-  animation: drawCircle 4s linear forwards;
-}
-
-.circle-late {
-  position: absolute;
-  fill: none;
-  stroke: #e4faff; /* Change stroke color as needed */
-  stroke-width: 0.5; /* Change stroke width as needed */
-  stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
-  stroke-dashoffset: 283; /* Initial value to hide the circle */
-  animation: drawCircle 4s linear forwards;
-}
-
-@keyframes drawCircle {
-  0% {
-    stroke-dashoffset: 283; /* Full circle is hidden */
-  }
-  100% {
-    stroke-dashoffset: 0; /* Full circle is revealed */
-  }
-}
-
-.circle-repeat {
-  fill: none;
-  /* opacity: 0; */
-  stroke: #e4faff; /* Change stroke color to white */
-  stroke-width: 0.6; /* Change stroke width as needed */
-  stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
-  stroke-dashoffset: 0; /* Initial value to reveal the entire circle */
-  animation: drawCircleRepeat 20s infinite linear; /* Adjust animation duration as needed */
-  /* animation-delay: 2s; Add a delay of 1 second */
-}
-
-@keyframes drawCircleRepeat {
-  0% {
-    opacity: 100%;
-    stroke-dashoffset: 283; /* Full circle is hidden */
-  }
-  50% {
-    stroke-dashoffset: 0; /* Full circle is revealed */
-  }
-  100% {
-    opacity: 100%;
-    stroke-dashoffset: -283; /* Circle is hidden at the other end */
-  }
-}
-
-.circle-repeats {
-  fill: none;
-  stroke: #e4faff; /* Change stroke color to white */
-  stroke-width: 0.6; /* Change stroke width as needed */
-  stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
-  stroke-dashoffset: 0; /* Initial value to reveal the entire circle */
-  animation: drawCircleRepeatw 50s infinite linear; /* Adjust animation duration as needed */
-  /* animation-delay: 1s;  Add a delay of 1 second */
-}
-
-@keyframes drawCircleRepeatw {
-  0% {
-    stroke-dashoffset: -283; /* Full circle is hidden */
-  }
-  50% {
-    stroke-dashoffset: 0; /* Full circle is revealed */
-  }
-  100% {
-    stroke-dashoffset: 283; /* Circle is hidden at the other end */
-  }
-}
-
-.circle-testtwo {
-  fill: none;
-  stroke: #e4faff;
-  stroke-width: 0.6;
-  stroke-dasharray: 4;
-  stroke-dashoffset: 283;
-  /* opacity: 50%; */
-}
-
-.test-svg {
-  animation: drawCircleTestTwo 50s infinite linear;
-}
-
-.test-svg-a {
-  animation: drawCircleTestTwo 30s infinite linear;
-}
-
-@keyframes drawCircleTestTwo {
-  0% {
-    rotate: 0deg;
-  }
-  100% {
-    rotate: 360deg;
-  }
-}
-
-@keyframes drawCircleTestTwoBack {
-  0% {
-    rotate: 360deg;
-  }
-  100% {
-    rotate: 0deg;
-  }
-}
-
-.circle-test {
-  fill: none;
-  stroke: #e4faff;
-  stroke-width: 0.6;
+/* HTML Circles */
+.html-circle-one {
   stroke-dasharray: 283;
-  stroke-dashoffset: 256;
-  /* animation-delay: 1s; */
+  stroke-dashoffset: 0;
 }
 
-.test-svg-2 {
-  animation: drawCircleTest 30s infinite linear;
-}
-
-@keyframes drawCircleTest {
-  0% {
-    rotate: 0deg;
-  }
-  100% {
-    rotate: -360deg;
-  }
-}
-
-.circle-11 {
-  fill: none;
-  stroke: #e4faff;
-  stroke-width: 0.6;
+.html-circle-two {
   stroke-dasharray: 283;
-  stroke-dashoffset: -240;
+  stroke-dashoffset: 0;
 }
 
-.circle-12 {
-  fill: none;
-  stroke: #e4faff;
-  stroke-width: 0.6;
-  stroke-dasharray: 283;
-  stroke-dashoffset: 43;
-}
-
-.circle-21 {
-  fill: none;
-  stroke: #e4faff;
-  stroke-width: 0.6;
+/* CSS Circles */
+.css-circle-one {
   stroke-dasharray: 70;
   stroke-dashoffset: 260;
 }
 
-.circle-22 {
-  fill: none;
-  stroke: #e4faff;
-  stroke-width: 0.6;
+.css-circle-two {
   stroke-dasharray: 283;
   stroke-dashoffset: 240;
 }
 
-.test-div-2 {
-  animation: divtest 20s infinite linear;
+/* JavaScript */
+.javascript-circle-one {
+  stroke-dasharray: 283;
+  stroke-dashoffset: 10;
 }
 
-@keyframes divtest {
-  0% {
-    rotate: 0deg;
-  }
-  100% {
-    rotate: -360deg;
-  }
+/* React, Node, Git */
+.react-circle-one,
+.node-circle-one,
+.git-circle-one {
+  stroke-dasharray: 4;
+  stroke-dashoffset: 283;
 }
 
-.test-div-3 {
-  animation: divtest 40s infinite linear;
+.git-circle-two {
+  stroke-dasharray: 283;
+  stroke-dashoffset: 256;
 }
 
-@keyframes divtest {
-  0% {
-    rotate: 0deg;
-  }
-  100% {
-    rotate: -360deg;
-  }
+/* PHP, Laravel */
+.php-circle-one,
+.laravel-circle-one {
+  stroke-dasharray: 283;
+  stroke-dashoffset: -240;
+}
+
+.php-circle-two,
+.laravel-circle-two {
+  stroke-dasharray: 283;
+  stroke-dashoffset: 43;
 }
