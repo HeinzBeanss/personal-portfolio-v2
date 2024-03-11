@@ -13,18 +13,45 @@
 
 @keyframes moveRotate {
   0% {
-    transform: translateX(0) rotate(0deg);
+    transform: translateX(2000px) rotate(0deg);
   }
   50% {
-    transform: translateX(2000px) rotate(180deg);
   }
   100% {
-    transform: translateX(0) rotate(360deg);
+    transform: translateX(-200px) rotate(180deg);
   }
 }
 
 .animate-move-rotate {
   animation: moveRotate 120s infinite linear;
+}
+
+.shooting-star {
+  animation: shootingStar 0.5s ease-in 5s;
+}
+@keyframes shootingStar {
+  0% {
+    transform: translateX(0) translateY(0) rotate(-35deg);
+  }
+  100% {
+    transform: translateX(-120vw) translateY(-120vh) rotate(-35deg);
+  }
+}
+
+.circle-small {
+  fill: none;
+  stroke: #e4faff;
+  stroke-width: 10;
+  stroke-dasharray: 16;
+  stroke-dashoffset: 283;
+}
+
+.test-svg-small {
+  animation: drawCircleTestTwo 4s infinite linear;
+}
+
+.test-svg-small-back {
+  animation: drawCircleTestTwoBack 4s infinite linear;
 }
 
 .circle {
@@ -58,13 +85,13 @@
 
 .circle-repeat {
   fill: none;
-  opacity: 0;
+  /* opacity: 0; */
   stroke: #e4faff; /* Change stroke color to white */
-  stroke-width: 0.5; /* Change stroke width as needed */
+  stroke-width: 0.6; /* Change stroke width as needed */
   stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
   stroke-dashoffset: 0; /* Initial value to reveal the entire circle */
-  animation: drawCircleRepeat 8s linear infinite; /* Adjust animation duration as needed */
-  /* animation-delay: 1s;  Add a delay of 1 second */
+  animation: drawCircleRepeat 20s infinite linear; /* Adjust animation duration as needed */
+  /* animation-delay: 2s; Add a delay of 1 second */
 }
 
 @keyframes drawCircleRepeat {
@@ -84,18 +111,136 @@
 .circle-repeats {
   fill: none;
   stroke: #e4faff; /* Change stroke color to white */
-  stroke-width: 0.5; /* Change stroke width as needed */
+  stroke-width: 0.6; /* Change stroke width as needed */
   stroke-dasharray: 283; /* Circumference of a circle with radius 45 */
   stroke-dashoffset: 0; /* Initial value to reveal the entire circle */
-  animation: drawCircleRepeat 8s linear forwards; /* Adjust animation duration as needed */
+  animation: drawCircleRepeatw 50s infinite linear; /* Adjust animation duration as needed */
   /* animation-delay: 1s;  Add a delay of 1 second */
 }
 
-@keyframes drawCircleRepeat {
+@keyframes drawCircleRepeatw {
   0% {
     stroke-dashoffset: -283; /* Full circle is hidden */
   }
+  50% {
+    stroke-dashoffset: 0; /* Full circle is revealed */
+  }
   100% {
-    stroke-dashoffset: -20; /* Full circle is revealed */
+    stroke-dashoffset: 283; /* Circle is hidden at the other end */
+  }
+}
+
+.circle-testtwo {
+  fill: none;
+  stroke: #e4faff;
+  stroke-width: 0.6;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 283;
+  /* opacity: 50%; */
+}
+
+.test-svg {
+  animation: drawCircleTestTwo 50s infinite linear;
+}
+
+.test-svg-a {
+  animation: drawCircleTestTwo 30s infinite linear;
+}
+
+@keyframes drawCircleTestTwo {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+@keyframes drawCircleTestTwoBack {
+  0% {
+    rotate: 360deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+.circle-test {
+  fill: none;
+  stroke: #e4faff;
+  stroke-width: 0.6;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 256;
+  /* animation-delay: 1s; */
+}
+
+.test-svg-2 {
+  animation: drawCircleTest 30s infinite linear;
+}
+
+@keyframes drawCircleTest {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: -360deg;
+  }
+}
+
+.circle-11 {
+  fill: none;
+  stroke: #e4faff;
+  stroke-width: 0.6;
+  stroke-dasharray: 283;
+  stroke-dashoffset: -240;
+}
+
+.circle-12 {
+  fill: none;
+  stroke: #e4faff;
+  stroke-width: 0.6;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 43;
+}
+
+.circle-21 {
+  fill: none;
+  stroke: #e4faff;
+  stroke-width: 0.6;
+  stroke-dasharray: 70;
+  stroke-dashoffset: 260;
+}
+
+.circle-22 {
+  fill: none;
+  stroke: #e4faff;
+  stroke-width: 0.6;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 240;
+}
+
+.test-div-2 {
+  animation: divtest 20s infinite linear;
+}
+
+@keyframes divtest {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: -360deg;
+  }
+}
+
+.test-div-3 {
+  animation: divtest 40s infinite linear;
+}
+
+@keyframes divtest {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: -360deg;
   }
 }

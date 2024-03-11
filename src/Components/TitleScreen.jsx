@@ -1,5 +1,6 @@
 import planetsvg from "../assets/planet-portfolio-final-svg.svg";
 import star from "../assets/star.svg";
+import shootingstar from "../assets/shootingstar.svg";
 
 const TitleText = () => {
   return (
@@ -16,6 +17,11 @@ const TitleText = () => {
         src={planetsvg}
         alt="planet"
         className="absolute w-3/4 lg:max-w-screen-xl 3xl:max-w-full -bottom-16 3xl:-bottom-24 inset-x-1/2 transform -translate-x-1/2 translate-y-1/3"
+      />
+      <img
+        src={shootingstar}
+        alt="Shooting Star"
+        className="absolute max-w-24 -rotate-90 -bottom-32 -right-32 shooting-star"
       />
       <img
         src={star}
