@@ -70,3 +70,9 @@
   stroke-dasharray: 283;
   stroke-dashoffset: 43;
 }
+
+/* TESTING */
+
+.testa {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

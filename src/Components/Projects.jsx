@@ -1,4 +1,5 @@
-import beebuddieslarge from "../assets/beebuddies850.webm";
+import ProjectBeeBuddies from "./ProjectBeeBuddies";
+import ProjecQuizzerly from "./ProjectQuizzerly";
 
 const Projects = () => {
   return (
@@ -37,19 +38,9 @@ const Projects = () => {
         {/* <div className="w-3 h-3 rounded-full border-lightest border"></div> */}
       </div>
 
-      <h3 className="text-lightest/90 text-left text-2xl font-light leading-6 tracking-widest mb-5">
-        BeeBuddies
-      </h3>
-
-      <video
-        autoPlay
-        muted
-        loop
-        src={beebuddieslarge}
-        alt="BeeBuddies Website"
-        className=""
-        type="video/webm"
-      />
+      <ProjectBeeBuddies />
+      <ProjecQuizzerly />
+      <ProjectBeeBuddies />
     </div>
   );
 };

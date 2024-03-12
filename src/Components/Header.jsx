@@ -26,9 +26,15 @@ const Header = () => {
       <div className="opacity-40 hover:opacity-80">Logo</div>
 
       <ul className="flex gap-8 tracking-widest ">
-        <li className="opacity-40 hover:opacity-80 cursor-pointer">About</li>
-        <li className="opacity-40 hover:opacity-80 cursor-pointer">Projects</li>
-        <li className="opacity-40 hover:opacity-80 cursor-pointer">Contact</li>
+        <li className="opacity-40 text-sm hover:opacity-80 cursor-pointer">
+          About
+        </li>
+        <li className="opacity-40 text-sm hover:opacity-80 cursor-pointer">
+          Projects
+        </li>
+        <li className="opacity-40 text-sm hover:opacity-80 cursor-pointer">
+          Contact
+        </li>
       </ul>
     </header>
   );
