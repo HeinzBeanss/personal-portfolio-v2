@@ -1,10 +1,12 @@
 import ProjectBeeBuddies from "./ProjectBeeBuddies";
+import ProjectInstagram from "./ProjectInstagram";
 import ProjecQuizzerly from "./ProjectQuizzerly";
+import Satellite from "../Components/Satellite";
 
 const Projects = () => {
   return (
     <div className="relative z-20 mt-24 mb-24 mx-auto max-w-screen-lg text-white/90 tracking-wider text-justify">
-      <h2 className="bg-clip-text text-transparent bg-gradient-to-br from-lighter to-white text-center text-3xl font-extrabold leading-6 tracking-widest mb-5">
+      <h2 className="relative bg-clip-text text-transparent bg-gradient-to-br from-lighter to-white text-center text-3xl font-extrabold leading-6 tracking-widest mb-5">
         PROJECTS
       </h2>
 
@@ -40,7 +42,8 @@ const Projects = () => {
 
       <ProjectBeeBuddies />
       <ProjecQuizzerly />
-      <ProjectBeeBuddies />
+      <Satellite />
+      <ProjectInstagram />
     </div>
   );
 };

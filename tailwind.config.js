@@ -36,9 +36,14 @@ export default {
           "0 0px 20px rgba(228, 250, 255, 0.1)",
           "0 0px 50px rgba(228, 250, 255, 0.1)",
         ],
+        images: ["0 10px 20px rgba(255,255,255,0.08)"],
+      },
+      boxShadow: {
+        images: ["0px 5px 15px rgba(0, 0, 0, 0.35)"],
       },
       animation: {
         "asteroid-one": "asteroid-one 100s infinite linear",
+        "satellite-one": "satellite-one 120s infinite linear",
         "rotate-forward-underline": "rotate-forward 5s infinite linear",
         "rotate-backward-underline": "rotate-backward 5s infinite linear",
         "rotate-forward-faster": "rotate-forward 40s infinite linear",
@@ -54,6 +59,10 @@ export default {
         "asteroid-one": {
           "0%": { transform: "translateX(105vw) rotate(0deg)" },
           "100%": { transform: "translateX(-20vw) rotate(180deg)" },
+        },
+        "satellite-one": {
+          "0%": { transform: "translateX(-50vw) rotate(90deg)" },
+          "100%": { transform: "translateX(105vw) rotate(180deg)" },
         },
         "rotate-forward": {
           "0%": { transform: "rotate(0deg)" },

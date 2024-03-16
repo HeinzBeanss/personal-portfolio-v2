@@ -35,9 +35,10 @@ const App = () => {
         <TitleScreen />
         <AboutMe />
         <Skills />
+
         <Asteroid />
         <Projects />
-        <div className="h-screen w-full"></div>
+        {/* <div className="h-screen w-full"></div> */}
       </div>
     </div>
   );

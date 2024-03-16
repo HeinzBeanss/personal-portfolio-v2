@@ -1,29 +1,49 @@
 import quizzerlymain from "../assets/projects/quizzerly/quizzerlymain.webm";
 import quizzerlymobile from "../assets/projects/quizzerly/quizzerlymobile.png";
 import quizzerlylogin from "../assets/projects/quizzerly/quizzerlylogin.png";
+import star from "../assets/star.svg";
 
 const ProjectQuizzerly = () => {
   return (
-    <div className="mt-72 flex w-full gap-10">
-      <div className="flex flex-col w-[40%] justify-center order-last">
+    <div className="mt-60 flex w-full gap-10 relative parallax-wrap">
+      <div className="flex flex-col w-[40%] justify-center order-last pt-12">
         <h3 className="text-lightest/90 text-left text-sm font-light leading-6 tracking-widest mb-5">
-          Quizzerly
+          <a href="https://www.quizzerly.fun">
+            Quizzerly
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="feather feather-external-link inline ml-1 mb-0.5"
+            >
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
         </h3>
 
         <h3 className="text-lightest/90 text-left text-2xl font-light leading-6 tracking-widest mb-5">
-          A dynamic quiz everything app.
+          A dynamic, modern quiz app.
         </h3>
 
-        <p className="font-thin text-sm text-left">
-          Quizzerly is a social media platform crafted with a unique front-end
-          client built on React, complemented by a back-end API following
-          RESTful practices. This dynamic combination utilizes NodeJS and
-          Express, coupled with MongoDB for database storage. Embracing its
-          distinct identity, the platform boasts a custom design and captivating
-          typeface. Embracing its distinct identity, the platform boasts a
-          custom design and captivating typeface.
+        <p className="font-thin text-base text-left mb-5">
+          Quizzerly is a versatile quiz website with a modern twist, integrating
+          Artificial Intelligence for seamless quiz generation via ChatGPT.
+          Users choose any topic they prefer and adjust the number of questions,
+          and answer options. Powered by PHP with Laravel and MySQL.
         </p>
 
+        <p className="font-thin text-base text-left">
+          Whether you want to test others on certain knowledge, or test
+          yourself, there&apos;s no better place to do so.
+        </p>
         <div className="mt-10 flex gap-6 justify-start pr-6">
           <svg viewBox="0 0 128 128" className="w-10">
             <path
@@ -80,32 +100,68 @@ const ProjectQuizzerly = () => {
         </div>
       </div>
       <div className="w-[600px] h-96 relative">
-        <div className="absolute right-0 top-1/4 z-20 h-56 max-w-[60%]">
+        <div className="absolute left-0 z-30 top-1/4 z-20 h-56 max-w-[60%]">
           <video
             autoPlay
             muted
             loop
             src={quizzerlymain}
             alt="BeeBuddies Website"
-            className="testa rounded-lg object-cover object-center h-full w-full drop-shadow-[0_10px_20px_rgba(255,255,255,0.06)]"
+            className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
             type="video/webm"
           />
         </div>
-        <div className="absolute z-10 h-52 max-w-[50%]">
+        <div className="absolute right-0 z-20 h-52 max-w-[50%]">
           <img
             src={quizzerlylogin}
             alt="beebuddies login screen"
-            className="testa rounded-lg object-cover object-center h-full w-full drop-shadow-[0_10px_20px_rgba(255,255,255,0.06)]"
+            className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
           />
         </div>
-        <div className="absolute z-30 w-[30%] h-80 left-8 top-44">
+        <div className="absolute z-40 w-[30%] h-80 right-8 top-44">
           <img
             src={quizzerlymobile}
             alt="beebuddies mobile screen"
-            className="testa rounded-lg object-cover object-top w-full h-full drop-shadow-[0_10px_20px_rgba(255,255,255,0.06)]"
+            className="rounded-lg object-cover object-top w-full h-full drop-shadow-images shadow-images"
           />
         </div>
       </div>
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute -top-24 -left-96 max-w-10"
+        value="-2"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 top-32 -left-48 opacity-60"
+        value="-3"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 bottom-80 -right-40 opacity-80"
+        value="3"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 top-16 left-32 opacity-80"
+        value="5"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 top-80 -right-64 opacity-80"
+        value="-3"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 -bottom-48 -left-72 opacity-80"
+        value="1"
+      />
     </div>
   );
 };

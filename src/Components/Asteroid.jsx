@@ -2,7 +2,7 @@ import AsteroidPNG from "/src/assets/ai-asteroid.png";
 
 const Asteroid = () => {
   return (
-    <div className="rotate-6 absolute z-10">
+    <div className="rotate-3 absolute z-10">
       <img
         src={AsteroidPNG}
         alt="Asteroid"

@@ -1,26 +1,47 @@
 import beebuddiesmain from "../assets/projects/beebuddies/beebuddiesmain.webm";
 import beebuddiesmobile from "../assets/projects/beebuddies/beebuddiesmobile.png";
 import beebuddieslogin from "../assets/projects/beebuddies/beebuddieslogin.png";
+import star from "../assets/star.svg";
 
 const ProjectBeeBuddies = () => {
   return (
-    <div className="mt-72 flex w-full gap-10 ">
-      <div className="flex flex-col w-[40%] justify-center">
-        <h3 className="text-lightest/90 text-left text-sm font-light leading-6 tracking-widest mb-5">
-          BeeBuddies
+    <div className="relative mt-24 flex w-full gap-10 parallax-wrap">
+      <div className="flex flex-col w-[40%] justify-center pt-12">
+        <h3 className="text-lightest/90 text-left text-sm font-light  tracking-widest mb-5">
+          <a href="https://www.beebuddies.co.uk">
+            BeeBuddies
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="feather feather-external-link inline ml-1 mb-0.5"
+            >
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
         </h3>
 
         <h3 className="text-lightest/90 text-left text-2xl font-light leading-6 tracking-widest mb-5">
           A buzzing social media app.
         </h3>
 
-        <p className="font-thin text-sm text-left">
+        <p className="font-thin text-base text-left">
           BeeBuddies is a social media platform crafted with a unique front-end
-          client built on React, complemented by a back-end API following
-          RESTful practices. This dynamic combination utilizes NodeJS and
-          Express, coupled with MongoDB for database storage. Embracing its
-          distinct identity, the platform boasts a custom design and captivating
-          typeface.
+          client built on React, complemented by a back-end API that is curated
+          through RESTful practices. This dynamic combination utilizes NodeJS
+          and Express, coupled with MongoDB for database storage.
+        </p>
+
+        <p className="font-thin text-base text-left mt-5">
+          Feel free to log in as a guest and have a look around.
         </p>
 
         <div className="mt-10 flex gap-6 justify-end pr-6">
@@ -199,7 +220,7 @@ const ProjectBeeBuddies = () => {
             loop
             src={beebuddiesmain}
             alt="BeeBuddies Website"
-            className="testa rounded-lg object-cover object-center h-full w-full drop-shadow-[0_10px_20px_rgba(255,255,255,0.06)]"
+            className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
             type="video/webm"
           />
         </div>
@@ -207,17 +228,71 @@ const ProjectBeeBuddies = () => {
           <img
             src={beebuddieslogin}
             alt="beebuddies login screen"
-            className="testa rounded-lg object-cover object-center h-full w-full drop-shadow-[0_10px_20px_rgba(255,255,255,0.06)]"
+            className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
           />
         </div>
         <div className="absolute z-30 w-[30%] h-80 left-8 top-44">
           <img
             src={beebuddiesmobile}
             alt="beebuddies mobile screen"
-            className="testa rounded-lg object-cover object-bottom w-full h-full drop-shadow-[0_10px_20px_rgba(255,255,255,0.06)]"
+            className="rounded-lg object-cover object-bottom w-full h-full drop-shadow-images shadow-images"
           />
         </div>
       </div>
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute -top-72 -left-96 max-w-10"
+        value="-2"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 top-24 -left-48 opacity-60"
+        value="4"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 bottom-80 -right-40 opacity-80"
+        value="4"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 -top-32 right-32 opacity-80"
+        value="6"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 top-48 -inset-x-1/3 opacity-40"
+        value="-3"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 top-60 right-32 opacity-80"
+        value="-5"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 top-1/2 -right-80 opacity-80"
+        value="-2"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 top-32 right-1/3 opacity-50"
+        value="3"
+      />{" "}
+      <img
+        src={star}
+        alt="star"
+        className="star-parallax absolute max-w-10 -top-48 left-48 opacity-80"
+        value="-2"
+      />
     </div>
   );
 };
