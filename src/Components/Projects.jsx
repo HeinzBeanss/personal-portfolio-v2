@@ -5,7 +5,10 @@ import Satellite from "../Components/Satellite";
 
 const Projects = () => {
   return (
-    <div className="relative z-20 mt-24 mb-24 mx-auto max-w-screen-lg text-white/90 tracking-wider text-justify">
+    <div
+      id="Projects"
+      className="relative z-20 mt-48 mb-48 mx-auto max-w-screen-lg text-white/90 tracking-wider text-justify"
+    >
       <h2 className="relative bg-clip-text text-transparent bg-gradient-to-br from-lighter to-white text-center text-3xl font-extrabold leading-6 tracking-widest mb-5">
         PROJECTS
       </h2>

@@ -6,6 +6,8 @@ import Asteroid from "./Components/Asteroid";
 import AboutMe from "./Components/AboutMe";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
+import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
 
 const App = () => {
   useEffect(() => {
@@ -35,10 +37,10 @@ const App = () => {
         <TitleScreen />
         <AboutMe />
         <Skills />
-
         <Asteroid />
         <Projects />
-        {/* <div className="h-screen w-full"></div> */}
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

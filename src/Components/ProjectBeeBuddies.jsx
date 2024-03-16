@@ -260,7 +260,7 @@ const ProjectBeeBuddies = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 -top-32 right-32 opacity-80"
+        className="star-parallax absolute max-w-10 -top-40 -right-72 opacity-80"
         value="6"
       />
       <img

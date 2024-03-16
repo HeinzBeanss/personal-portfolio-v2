@@ -2,7 +2,10 @@ import star from "../assets/star.svg";
 
 const AboutMe = () => {
   return (
-    <div className="relative mt-72 mb-12 mx-auto max-w-screen-lg text-white/90 tracking-wider text-justify parallax-wrap">
+    <div
+      id="About"
+      className="relative mt-72 mb-16 mx-auto max-w-screen-lg text-white/90 tracking-wider text-justify parallax-wrap"
+    >
       <h2 className="bg-clip-text text-transparent bg-gradient-to-br from-lighter to-white text-center text-3xl font-extrabold leading-6 tracking-widest mb-5">
         A LITTLE ABOUT ME
       </h2>
@@ -35,14 +38,16 @@ const AboutMe = () => {
         </svg>
         {/* <div className="w-3 h-3 rounded-full border-lightest border"></div> */}
       </div>
-      <p className="mt-5  font-thin leading-6 text-base ">
+      <p className="mt-24  font-thin leading-6 text-base ">
         {
           "I'm David Bean, and you can find me in a small town called Dewsbury, coding away at my computer most hours of the day while my three monitors surround me. Completely self-driven, I've been focused on studying independently for roughly two years, and I've enjoyed it wholeheartedly. I started with HTML, CSS, and JavaScript, before gradually expanding my knowledge and exploring React, Node, MongoDB, and then most recently PHP, Laravel, and MySQL. Outside of programming I'm a thorougher enjoyer of movies, television shows, and music (well, who isn't?)."
         }
       </p>
 
       <p className="mt-5  font-thin leading-6 text-base ">
-        {"Now the important part, what can I actually do? Have a look below!"}
+        {
+          "Now the important part, what can I actually do? Have a look at the skills I'm comfortable with below!"
+        }
       </p>
       <img
         src={star}
@@ -65,7 +70,7 @@ const AboutMe = () => {
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax max-w-10 top-40 -left-60 opacity-70"
+        className="absolute star-parallax max-w-10 top-96 -left-60 opacity-70"
         value="5"
       />
       <img

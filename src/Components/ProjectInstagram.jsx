@@ -30,7 +30,7 @@ const ProjectInstagram = () => {
         </h3>
 
         <h3 className="text-lightest/90 text-left text-2xl font-light leading-6 tracking-widest mb-5">
-          An Instagram Clone.
+          An Instagram clone.
         </h3>
 
         <p className="font-thin text-base text-left">

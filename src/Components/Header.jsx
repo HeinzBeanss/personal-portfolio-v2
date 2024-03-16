@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -26,15 +27,21 @@ const Header = () => {
       <div className="opacity-40 hover:opacity-80">Logo</div>
 
       <ul className="flex gap-8 tracking-widest ">
-        <li className="opacity-40 text-sm hover:opacity-80 cursor-pointer">
-          About
-        </li>
-        <li className="opacity-40 text-sm hover:opacity-80 cursor-pointer">
-          Projects
-        </li>
-        <li className="opacity-40 text-sm hover:opacity-80 cursor-pointer">
-          Contact
-        </li>
+        <Link activeClass="active" smooth spy to={"About"}>
+          <li className="opacity-40 text-sm hover:opacity-80 cursor-pointer">
+            About
+          </li>
+        </Link>
+        <Link activeClass="active" smooth spy to={"Projects"}>
+          <li className="opacity-40 text-sm hover:opacity-80 cursor-pointer">
+            Projects
+          </li>
+        </Link>
+        <Link activeClass="active" smooth spy to={"Contact"}>
+          <li className="opacity-40 text-sm hover:opacity-80 cursor-pointer">
+            Contact
+          </li>
+        </Link>
       </ul>
     </header>
   );
