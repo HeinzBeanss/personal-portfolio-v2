@@ -2,8 +2,21 @@ import ProjectBeeBuddies from "./ProjectBeeBuddies";
 import ProjectInstagram from "./ProjectInstagram";
 import ProjecQuizzerly from "./ProjectQuizzerly";
 import Satellite from "../Components/Satellite";
+import { useEffect } from "react";
 
 const Projects = () => {
+  useEffect(() => {
+    const projectdescriptions = document.querySelectorAll(".projectdesc");
+    window.addEventListener("scroll", () => {
+      projectdescriptions.forEach((description) => {
+        const descriptiontop = description.getBoundingClientRect().top;
+        if (descriptiontop < window.innerHeight - 80) {
+          description.style.opacity = "100%";
+          description.style.transform = `translateX(0px)`;
+        }
+      });
+    });
+  }, []);
   return (
     <div
       id="Projects"

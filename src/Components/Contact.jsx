@@ -35,6 +35,89 @@ const Contact = () => {
           />
         </svg>
       </div>
+
+      <p className="aboutmetext mb-8 mt-5 font-thin leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500 text-center">
+        You&apos;re more than welcome to drop me an email using the form below.
+      </p>
+      <form
+        className="flex flex-col"
+        action="https://formsubmit.co/f9c5245a9e75583fb8ccc82f0885ca47"
+        method="POST"
+      >
+        <div className="flex justify-between gap-8 font-roboto">
+          <div className="flex flex-col w-full ">
+            <label
+              htmlFor="name"
+              className="pl-0.5 text-sm font-light text-lightest"
+            >
+              NAME
+            </label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Neil Armstrong"
+              className="pb-1 pl-0.5 text-sm placeholder-white/30 bg-transparent border-b border-white/20 font-outfit font-light tracking-wide outline-0 autofill:shadow-none"
+              required
+            ></input>
+          </div>
+
+          <div className="flex flex-col w-full ">
+            <label
+              htmlFor="email"
+              className="pl-0.5 text-sm font-light text-lightest"
+            >
+              EMAIL
+            </label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              className="pb-1 pl-0.5 text-sm placeholder-white/30 bg-transparent border-b border-white/20 font-outfit font-light tracking-wide outline-0 autofill:shadow-none"
+              placeholder="jupiter@gmail.com"
+              required
+            ></input>
+          </div>
+
+          <div className="flex flex-col w-full ">
+            <label
+              htmlFor="subject"
+              className="pl-0.5 text-sm font-light text-lightest"
+            >
+              SUBJECT
+            </label>
+            <input
+              id="subject"
+              name="subject"
+              type="text"
+              className="pb-1 pl-0.5 text-sm placeholder-white/30 bg-transparent border-b border-white/20 font-outfit font-light tracking-wide outline-none"
+              placeholder="Pluto is a planet"
+            ></input>
+          </div>
+        </div>
+        <label
+          htmlFor="message"
+          className="mt-4 mb-1 pl-0.5 text-sm font-light text-lightest"
+        >
+          MESSAGE
+        </label>
+        <textarea
+          id="message"
+          type="text"
+          name="message"
+          cols="1"
+          rows="2"
+          className="pb-1 pl-0.5 text-sm placeholder-white/30 bg-transparent border-b border-white/20 font-outfit font-light tracking-wide outline-none resize-none"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+        <button
+          className="mt-4 px-2 py-2 text-sm font-roboto font-light tracking-wider w-40 mx-auto border-b border-transparent hover:text-lightest hover:border-lightest"
+          type="submit"
+        >
+          SEND EMAIL
+        </button>
+      </form>
     </div>
   );
 };

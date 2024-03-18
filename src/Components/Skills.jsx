@@ -76,13 +76,14 @@ const Skills = () => {
                 CSS
               </p>
             </div>
+
             <svg
-              className="max-w-32  absolute animate-rotate-forward-slower"
+              className="max-w-32 absolute animate-rotate-forward-slower"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                className="css-circle-one stroke-[0.6px] fill-none stroke-lightest"
+                className="git-circle-one stroke-[0.6px] fill-none stroke-lightest"
                 cx="50"
                 cy="50"
                 r="45"
@@ -90,12 +91,12 @@ const Skills = () => {
             </svg>
 
             <svg
-              className="max-w-36 absolute animate-rotate-forward-faster"
+              className="max-w-36 absolute animate-rotate-backward-faster"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                className="css-circle-two stroke-[0.6px] fill-none stroke-lightest"
+                className="git-circle-two stroke-[0.6px] fill-none stroke-lightest"
                 cx="50"
                 cy="50"
                 r="45"
@@ -236,7 +237,7 @@ const Skills = () => {
               </p>
             </div>
             <svg
-              className="max-w-32  absolute animate-rotate-forward-slower"
+              className="max-w-36  absolute animate-rotate-forward-slower"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -247,9 +248,18 @@ const Skills = () => {
                 r="45"
               />
             </svg>
-            <div className="w-36 absolute animate-rotate-backward-faster">
-              <div className="w-2 h-2 rounded-full bg-lightest"></div>
-            </div>
+            <svg
+              className="max-w-32 rotate-12 absolute animate-node-circle-two"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                className="node-circle-two stroke-[0.6px] fill-none stroke-lightest"
+                cx="50"
+                cy="50"
+                r="45"
+              />
+            </svg>
           </div>
 
           {/* PHP */}
@@ -339,31 +349,13 @@ const Skills = () => {
                 Laravel
               </p>
             </div>
-            <svg
-              className="max-w-32  absolute animate-rotate-forward-slower"
-              viewBox="0 0 100 100"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                className="laravel-circle-one stroke-[0.6px] fill-none stroke-lightest"
-                cx="50"
-                cy="50"
-                r="45"
-              />
-            </svg>
+            <div className="w-0 h-36 absolute animate-rotate-backward-slower">
+              <div className="w-3 h-3 rounded-full bg-white/90"></div>
+            </div>
 
-            <svg
-              className="max-w-36 absolute animate-rotate-backward-faster"
-              viewBox="0 0 100 100"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                className="laravel-circle-two stroke-[0.6px] fill-none stroke-lightest"
-                cx="50"
-                cy="50"
-                r="45"
-              />
-            </svg>
+            <div className="w-0 h-40 absolute animate-rotate-backward-faster">
+              <div className="w-2 h-2 rounded-full bg-white/90"></div>
+            </div>
           </div>
 
           {/* GIT */}
@@ -380,12 +372,12 @@ const Skills = () => {
               </p>
             </div>
             <svg
-              className="max-w-32 absolute animate-rotate-forward-slower"
+              className="max-w-32  absolute animate-rotate-forward-slower"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                className="git-circle-one stroke-[0.6px] fill-none stroke-lightest"
+                className="css-circle-one stroke-[0.6px] fill-none stroke-lightest"
                 cx="50"
                 cy="50"
                 r="45"
@@ -393,12 +385,12 @@ const Skills = () => {
             </svg>
 
             <svg
-              className="max-w-36 absolute animate-rotate-backward-faster"
+              className="max-w-36 absolute animate-rotate-forward-faster"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                className="git-circle-two stroke-[0.6px] fill-none stroke-lightest"
+                className="css-circle-two stroke-[0.6px] fill-none stroke-lightest"
                 cx="50"
                 cy="50"
                 r="45"
@@ -419,13 +411,31 @@ const Skills = () => {
                 Adobe
               </p>
             </div>
-            <div className="w-0 h-36 absolute animate-rotate-backward-slower">
-              <div className="w-3 h-3 rounded-full bg-white/90"></div>
-            </div>
+            <svg
+              className="max-w-32  absolute animate-rotate-forward-slower"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                className="laravel-circle-one stroke-[0.6px] fill-none stroke-lightest"
+                cx="50"
+                cy="50"
+                r="45"
+              />
+            </svg>
 
-            <div className="w-0 h-40 absolute animate-rotate-backward-faster">
-              <div className="w-2 h-2 rounded-full bg-white/90"></div>
-            </div>
+            <svg
+              className="max-w-32 absolute animate-scale-circle"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                className="laravel-circle-two stroke-[0.6px] fill-none stroke-lightest opacity-50"
+                cx="50"
+                cy="50"
+                r="45"
+              />
+            </svg>
           </div>
         </div>
       </div>

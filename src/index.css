@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px #23232329;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
@@ -47,9 +57,18 @@
 
 /* React, Node, Git */
 .react-circle-one,
-.node-circle-one,
 .git-circle-one {
   stroke-dasharray: 4;
+  stroke-dashoffset: 283;
+}
+
+.node-circle-one {
+  stroke-dasharray: 36;
+  stroke-dashoffset: 283;
+}
+
+.node-circle-two {
+  stroke-dasharray: 12;
   stroke-dashoffset: 283;
 }
 
@@ -59,16 +78,23 @@
 }
 
 /* PHP, Laravel */
-.php-circle-one,
-.laravel-circle-one {
+.php-circle-one {
   stroke-dasharray: 283;
   stroke-dashoffset: -240;
 }
 
-.php-circle-two,
-.laravel-circle-two {
+.php-circle-two {
   stroke-dasharray: 283;
   stroke-dashoffset: 43;
 }
 
+.laravel-circle-one {
+  stroke-dasharray: 283;
+  stroke-dashoffset: 0;
+}
+
+.laravel-circle-two {
+  stroke-dasharray: 283;
+  stroke-dashoffset: 0;
+}
 /* TESTING */

@@ -1,6 +1,20 @@
+import { useEffect } from "react";
 import star from "../assets/star.svg";
 
 const AboutMe = () => {
+  useEffect(() => {
+    const aboutmetext = document.querySelectorAll(".aboutmetext");
+    window.addEventListener("scroll", () => {
+      aboutmetext.forEach((description) => {
+        const descriptiontop = description.getBoundingClientRect().top;
+        console.log(descriptiontop);
+        if (descriptiontop < window.innerHeight - 20) {
+          description.style.opacity = "100%";
+          description.style.transform = `translateY(0px)`;
+        }
+      });
+    });
+  }, []);
   return (
     <div
       id="About"
@@ -38,13 +52,13 @@ const AboutMe = () => {
         </svg>
         {/* <div className="w-3 h-3 rounded-full border-lightest border"></div> */}
       </div>
-      <p className="mt-24  font-thin leading-6 text-base ">
+      <p className="aboutmetext mt-24 font-thin leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
         {
           "I'm David Bean, and you can find me in a small town called Dewsbury, coding away at my computer most hours of the day while my three monitors surround me. Completely self-driven, I've been focused on studying independently for roughly two years, and I've enjoyed it wholeheartedly. I started with HTML, CSS, and JavaScript, before gradually expanding my knowledge and exploring React, Node, MongoDB, and then most recently PHP, Laravel, and MySQL. Outside of programming I'm a thorougher enjoyer of movies, television shows, and music (well, who isn't?)."
         }
       </p>
 
-      <p className="mt-5  font-thin leading-6 text-base ">
+      <p className="aboutmetext mt-5  font-thin leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
         {
           "Now the important part, what can I actually do? Have a look at the skills I'm comfortable with below!"
         }

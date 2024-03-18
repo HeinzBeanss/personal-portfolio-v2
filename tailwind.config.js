@@ -52,7 +52,9 @@ export default {
         "rotate-backward-slower": "rotate-backward 60s infinite linear",
         "html-circle-one": "html-circle-one 40s infinite linear",
         "html-circle-two": "html-circle-two 60s infinite linear",
+        "node-circle-two": "node-circle-two 60s infinite linear",
         "javascript-rotate": "rotate-javascript 60s infinite linear",
+        "scale-circle": "scale-circle 12s infinite ease-in-out",
         "shooting-star": "shooting-star 0.5s ease-in 5s",
       },
       keyframes: {
@@ -86,6 +88,15 @@ export default {
           "50%": { "stroke-dashoffset": "0" },
           "100%": { "stroke-dashoffset": "283" },
         },
+        "node-circle-two": {
+          "0%": { transform: "rotate(35deg)" },
+          "100%": { transform: "rotate(395deg)" },
+        },
+        "scale-circle": {
+          "0%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.2)" },
+          "100%": { transform: "scale(1)" },
+        },
         "shooting-star": {
           "0%": { transform: "translateX(0) translateY(0) rotate(-35deg)" },
           "100%": {
@@ -93,10 +104,14 @@ export default {
           },
         },
       },
+      transitionDuration: {
+        veryslow: "1600ms",
+      },
     },
     fontFamily: {
       rubik: ["Rubik", "sans-serif"],
       roboto: ["Roboto", "sans-serif"],
+      outfit: ["Outfit", "sans-serif"],
     },
   },
   plugins: [],
