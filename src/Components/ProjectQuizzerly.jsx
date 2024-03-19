@@ -26,9 +26,9 @@ const ProjectQuizzerly = () => {
   }, []);
 
   return (
-    <div className="mt-60 flex w-full gap-10 relative parallax-wrap">
-      <div className="flex flex-col w-[40%] justify-center order-last pt-12">
-        <h3 className="text-white/40 text-left text-sm font-light leading-6 tracking-widest mb-5 font-outfit">
+    <div className="mt-12 sm:mt-60 flex flex-col sm:flex-row w-full gap-6 sm:gap-10 relative parallax-wrap">
+      <div className="flex flex-col w-full sm:w-[40%] justify-center order-first sm:order-last pt-12">
+        <h3 className="text-white/40 text-left text-xs sm:text-sm font-light leading-6 tracking-widest mb-3 sm:mb-5 font-outfit">
           <a href="https://www.quizzerly.fun">
             Quizzerly
             <svg
@@ -50,25 +50,25 @@ const ProjectQuizzerly = () => {
           </a>
         </h3>
 
-        <h3 className="text-lightest/90 text-left text-2xl font-bold leading-6 tracking-widest mb-5 font-roboto bg-clip-text text-transparent bg-gradient-to-tr from-lighter to-white">
+        <h3 className="text-lightest/90 text-left text-lg sm:text-2xl font-bold leading-6 tracking-widest mb-3 sm:mb-5 font-roboto bg-clip-text text-transparent bg-gradient-to-tr from-lighter to-white">
           A MODERN QUIZ PLAYGROUND
         </h3>
 
-        <p className="projectdesc font-thin text-base text-left mb-5 font-outfit opacity-0 transform translate-x-5 transition-all linear duration-500">
+        <p className="projectdesc font-thin sm:text-base text-xs leading-4 sm:leading-6 text-left mb-3 sm:mb-5 font-outfit opacity-0 transform translate-x-5 transition-all linear duration-500">
           Quizzerly is a versatile quiz website with a modern twist, integrating
           Artificial Intelligence for seamless quiz generation via ChatGPT.
           Users choose any topic they prefer and adjust the number of questions,
           and answer options. Powered by PHP with Laravel and MySQL.
         </p>
 
-        <p className="projectdesc font-thin text-base text-left font-outfit opacity-0 transform translate-x-5 transition-all linear duration-500">
+        <p className="projectdesc font-thin sm:text-base text-xs leading-4 sm:leading-6 text-left font-outfit opacity-0 transform translate-x-5 transition-all linear duration-500">
           Whether you want to test others on certain knowledge, or test
           yourself, there&apos;s no better place to do so.
         </p>
-        <div className="mt-10 flex gap-6 justify-start pr-6">
+        <div className="mt-4 sm:mt-10 flex gap-6 justify-end pr-6">
           <svg
             viewBox="0 0 128 128"
-            className="w-10 hover:scale-125 duration-300 ease-in-out "
+            className="w-8 sm:w-10 hover:scale-125 duration-300 ease-in-out "
           >
             <path
               fill="url(#a)"
@@ -111,7 +111,7 @@ const ProjectQuizzerly = () => {
           </svg>{" "}
           <svg
             viewBox="0 0 128 128"
-            className="w-10 hover:scale-125 duration-300 ease-in-out"
+            className="w-8 sm:w-10 hover:scale-125 duration-300 ease-in-out"
           >
             <path
               fill="#E4faff"
@@ -120,7 +120,7 @@ const ProjectQuizzerly = () => {
           </svg>
           <svg
             viewBox="0 0 128 128"
-            className="w-10 hover:scale-125 duration-300 ease-in-out"
+            className="w-8 sm:w-10 hover:scale-125 duration-300 ease-in-out"
           >
             <path
               fill="#EAfaff"
@@ -129,8 +129,8 @@ const ProjectQuizzerly = () => {
           </svg>
         </div>
       </div>
-      <div className="w-[600px] h-96 relative">
-        <div className="quizzerlymain absolute left-0 z-30 top-1/4 z-20 h-56 max-w-[60%] transition-all duration-veryslow ease-out transform">
+      <div className="w-full h-48 sm:w-[600px] sm:h-96 relative">
+        <div className="quizzerlymain absolute left-0 z-30 top-1/4 z-20 h-28 sm:h-56 max-w-[70%] sm:max-w-[60%] transition-all duration-veryslow ease-out transform">
           <video
             autoPlay
             muted
@@ -141,14 +141,14 @@ const ProjectQuizzerly = () => {
             type="video/webm"
           />
         </div>
-        <div className="absolute right-0 z-20 h-52 max-w-[50%]">
+        <div className="absolute right-0 z-20 h-24 sm:h-52 max-w-[55%] sm:max-w-[50%]">
           <img
             src={quizzerlylogin}
             alt="Quizzerly screen"
             className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
           />
         </div>
-        <div className="quizzerlymobile absolute z-40 w-[30%] h-80 right-8 top-44 transition-all duration-veryslow ease-out transform">
+        <div className="quizzerlymobile absolute z-40 max-w-[60%] sm:w-[30%] h-32 sm:h-80 right-2 sm:right-8 top-16 sm:top-44 transition-all duration-veryslow ease-out transform">
           <img
             src={quizzerlymobile}
             alt="Quzzerly mobile screen"
@@ -159,37 +159,37 @@ const ProjectQuizzerly = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute -top-24 -left-96 max-w-10"
+        className="star-parallax hidden sm:block absolute -top-24 -left-96 max-w-10"
         value="-2"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 top-32 -left-48 opacity-60"
+        className="star-parallax hidden sm:block absolute max-w-10 top-32 -left-48 opacity-60"
         value="-3"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 bottom-80 -right-40 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 bottom-80 -right-40 opacity-80"
         value="3"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 top-16 left-32 opacity-10"
+        className="star-parallax hidden sm:block absolute max-w-10 top-16 left-32 opacity-10"
         value="5"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 top-80 -right-64 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 top-80 -right-64 opacity-80"
         value="-3"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 -bottom-48 -left-72 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 -bottom-48 -left-72 opacity-80"
         value="1"
       />
     </div>

@@ -28,6 +28,10 @@ export default {
         1200: "1200px",
         half: "25%",
       },
+      scale: {
+        twice: "2",
+        thrice: "3",
+      },
       screens: {
         "3xl": "1921px",
       },

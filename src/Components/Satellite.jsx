@@ -2,7 +2,7 @@ import SatellitePNG from "/src/assets/satellite.png";
 
 const Satellite = () => {
   return (
-    <div className="rotate-[8deg] absolute z-10 w-96">
+    <div className="rotate-[8deg] absolute z-10 w-32 sm:w-96">
       <img
         src={SatellitePNG}
         alt="Satellite"

@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 w-full flex justify-around text-white px-2 py-6 font-thin z-30 transition-opacity duration-1000 ease-in-out ${
+      className={` fixed top-0 w-full hidden sm:flex justify-around text-white px-2 py-6 font-thin z-30 transition-opacity duration-1000 ease-in-out ${
         navbarVisibility ? "opacity-100" : "opacity-0"
       }`}
     >
