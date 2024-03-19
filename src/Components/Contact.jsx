@@ -1,3 +1,5 @@
+import star from "../assets/star2.svg";
+
 const Contact = () => {
   return (
     <div
@@ -7,7 +9,6 @@ const Contact = () => {
       <h2 className="bg-clip-text text-transparent bg-gradient-to-br from-lighter to-white text-center text-3xl font-extrabold leading-6 tracking-widest mb-5">
         GET IN TOUCH
       </h2>
-
       <div className="flex justify-center items-center mb-5 ">
         <svg
           className="max-w-3 -rotate-90 animate-rotate-forward-underline"
@@ -35,7 +36,6 @@ const Contact = () => {
           />
         </svg>
       </div>
-
       <p className="aboutmetext mb-8 mt-5 font-thin leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500 text-center">
         You&apos;re more than welcome to drop me an email using the form below.
       </p>
@@ -118,6 +118,24 @@ const Contact = () => {
           SEND EMAIL
         </button>
       </form>
+      <img
+        src={star}
+        alt="star"
+        className="absolute star-parallax max-w-10 top-72 -right-1/3 opacity-50"
+        value="2"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="absolute star-parallax max-w-10 -top-12 -right-72 opacity-10"
+        value="2"
+      />
+      <img
+        src={star}
+        alt="star"
+        className="absolute star-parallax max-w-10 top-80 -left-72 opacity-40"
+        value="2"
+      />{" "}
     </div>
   );
 };

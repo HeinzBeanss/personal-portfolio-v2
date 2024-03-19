@@ -1,7 +1,7 @@
 import beebuddiesmain from "../assets/projects/beebuddies/beebuddiesmain.webm";
 import beebuddiesmobile from "../assets/projects/beebuddies/beebuddiesmobile.png";
 import beebuddieslogin from "../assets/projects/beebuddies/beebuddieslogin.png";
-import star from "../assets/star.svg";
+import star from "../assets/star2.svg";
 import { useEffect } from "react";
 
 const ProjectBeeBuddies = () => {
@@ -272,15 +272,15 @@ const ProjectBeeBuddies = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute -top-72 -left-96 max-w-10"
-        value="-2"
+        className="star-parallax absolute -top-60 -left-80 max-w-10"
+        value="2"
       />
-      <img
+      {/* <img
         src={star}
         alt="star"
         className="star-parallax absolute max-w-10 top-24 -left-48 opacity-60"
         value="4"
-      />
+      /> */}
       <img
         src={star}
         alt="star"
@@ -290,7 +290,7 @@ const ProjectBeeBuddies = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 -top-40 -right-72 opacity-80"
+        className="star-parallax absolute max-w-10 -top-40 -right-72 opacity-30"
         value="6"
       />
       <img
@@ -302,7 +302,7 @@ const ProjectBeeBuddies = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 top-60 right-32 opacity-80"
+        className="star-parallax absolute max-w-10 top-60 right-32 opacity-20"
         value="-5"
       />
       <img
@@ -314,7 +314,7 @@ const ProjectBeeBuddies = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 top-32 right-1/3 opacity-50"
+        className="star-parallax absolute max-w-10 top-32 right-1/3 opacity-40"
         value="3"
       />{" "}
       <img

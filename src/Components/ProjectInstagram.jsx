@@ -1,7 +1,7 @@
 import instagrammain from "../assets/projects/instagram/instagrammain.webm";
 import instagrammobile from "../assets/projects/instagram/instagrammobile.png";
 import instagramlogin from "../assets/projects/instagram/instagramlogin.png";
-import star from "../assets/star.svg";
+import star from "../assets/star2.svg";
 import { useEffect } from "react";
 
 const ProjectInstagram = () => {
@@ -141,7 +141,7 @@ const ProjectInstagram = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute top-32 -left-48 max-w-10"
+        className="star-parallax absolute top-32 -left-48 max-w-10 opacity-10"
         value="-2"
       />
       <img
@@ -153,7 +153,7 @@ const ProjectInstagram = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 bottom-80 right-24 opacity-80"
+        className="star-parallax absolute max-w-10 bottom-80 right-24 opacity-30"
         value="3"
       />
       <img
@@ -165,13 +165,13 @@ const ProjectInstagram = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 top-60 -right-64 opacity-80"
+        className="star-parallax absolute max-w-10 top-60 -right-64 opacity-60"
         value="2"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 -bottom-48 left-44 opacity-80"
+        className="star-parallax absolute max-w-10 -bottom-48 left-44 opacity-40"
         value="1"
       />
     </div>

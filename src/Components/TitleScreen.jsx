@@ -1,5 +1,6 @@
 import planetsvg from "../assets/planet-portfolio-final-svg.svg";
-import star from "../assets/star.svg";
+import star from "../assets/star2.svg";
+// import star2 from "../assets/star2.svg";
 import shootingstar from "../assets/shootingstar.svg";
 
 const TitleText = () => {

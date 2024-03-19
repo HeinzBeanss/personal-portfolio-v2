@@ -1,7 +1,7 @@
 import quizzerlymain from "../assets/projects/quizzerly/quizzerlymain.webm";
 import quizzerlymobile from "../assets/projects/quizzerly/quizzerlymobile.png";
 import quizzerlylogin from "../assets/projects/quizzerly/quizzerlylogin.png";
-import star from "../assets/star.svg";
+import star from "../assets/star2.svg";
 import { useEffect } from "react";
 
 const ProjectQuizzerly = () => {
@@ -177,7 +177,7 @@ const ProjectQuizzerly = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax absolute max-w-10 top-16 left-32 opacity-80"
+        className="star-parallax absolute max-w-10 top-16 left-32 opacity-10"
         value="5"
       />
       <img

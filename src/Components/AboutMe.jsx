@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import star from "../assets/star.svg";
+import star from "../assets/star2.svg";
 
 const AboutMe = () => {
   useEffect(() => {
@@ -7,7 +7,6 @@ const AboutMe = () => {
     window.addEventListener("scroll", () => {
       aboutmetext.forEach((description) => {
         const descriptiontop = description.getBoundingClientRect().top;
-        console.log(descriptiontop);
         if (descriptiontop < window.innerHeight - 20) {
           description.style.opacity = "100%";
           description.style.transform = `translateY(0px)`;
@@ -78,7 +77,7 @@ const AboutMe = () => {
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax max-w-10 bottom-80 right-48 opacity-80"
+        className="absolute star-parallax max-w-10 bottom-96 right-48 opacity-10"
         value="-2"
       />
       <img
