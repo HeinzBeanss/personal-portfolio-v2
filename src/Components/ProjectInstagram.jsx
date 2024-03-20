@@ -25,8 +25,8 @@ const ProjectInstagram = () => {
     });
   }, []);
   return (
-    <div className="relative z-50 parallax-wrap mt-12 sm:mt-60 flex flex-col sm:flex-row w-full gap-6 sm:gap-10 ">
-      <div className="flex flex-col w-full sm:w-[40%] justify-center pt-12">
+    <div className="relative z-50 parallax-wrap mt-12 sm:mt-48 lg:mt-60 flex flex-col lg:flex-row w-full gap-6 sm:gap-10 ">
+      <div className="flex flex-col w-full lg:w-[40%] justify-center pt-12">
         <h3 className="text-white/40 text-left text-xs sm:text-sm font-light leading-6 tracking-widest mb-3 sm:mb-5 font-outfit">
           <a href="https://heinzbeanss.github.io/instagram/#/">
             Instagram
@@ -53,7 +53,7 @@ const ProjectInstagram = () => {
           AN INSTAGRAM CLONE
         </h3>
 
-        <p className="projectdesc font-thin sm:text-base text-xs leading-4 sm:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500">
+        <p className="projectdesc font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500">
           A recreation of the popular social media platform Instagram, the goal
           here was to achieve around 80% accuracy of the real website. Using
           React for the front-end and Firebase for the backend, users can create
@@ -62,10 +62,10 @@ const ProjectInstagram = () => {
           users and their posts respectively.
         </p>
 
-        <div className="mt-4 sm:mt-10 flex gap-6 justify-end pr-6">
+        <div className="mt-4 lg:mt-10 flex gap-4 sm:gap-6 justify-end pr-6">
           <svg
             viewBox="0 0 128 128"
-            className="w-8 sm:w-10 hover:scale-125 duration-300 ease-in-out"
+            className="w-6 sm:w-10 hover:scale-125 duration-300 ease-in-out"
           >
             <path
               fill="#EAfaff"
@@ -92,7 +92,7 @@ const ProjectInstagram = () => {
           </svg>
           <svg
             viewBox="0 0 128 128"
-            className="w-8 sm:w-10 hover:scale-125 duration-300 ease-in-out rounded-lg"
+            className="w-6 sm:w-10 hover:scale-125 duration-300 ease-in-out rounded-lg"
           >
             <g fill="#EAfaff">
               <circle cx="64" cy="64" r="11.4"></circle>
@@ -101,7 +101,7 @@ const ProjectInstagram = () => {
           </svg>
           <svg
             viewBox="0 0 128 128"
-            className="w-8 sm:w-10 hover:scale-125 duration-300 ease-in-out rounded-lg"
+            className="w-6 sm:w-10 hover:scale-125 duration-300 ease-in-out rounded-lg"
           >
             <path fill="#E4faff" d="M1.408 1.408h125.184v125.185H1.408z"></path>
             <path
@@ -111,8 +111,8 @@ const ProjectInstagram = () => {
           </svg>
         </div>
       </div>
-      <div className="w-full h-48 sm:w-[600px] sm:h-96 relative">
-        <div className="instagrammain absolute right-0 z-30 top-1/4 z-20 h-28 sm:h-56 max-w-[70%] sm:max-w-[60%] transition-all duration-veryslow ease-out transform">
+      <div className="w-full h-[40vw] sm:w-[600px] sm:h-96 relative sm:mx-auto">
+        <div className="instagrammain absolute sm:right-0 sm:left-auto left-[30%] z-20 h-[80%] sm:h-56 max-w-[70%] sm:max-w-[60%] top-1/4 transition-all duration-veryslow ease-out transform">
           <video
             autoPlay
             muted
@@ -123,14 +123,14 @@ const ProjectInstagram = () => {
             type="video/webm"
           />
         </div>
-        <div className="absolute z-20 h-24 sm:h-52 max-w-[55%] sm:max-w-[50%]">
+        <div className="absolute z-10 h-[70%] sm:h-52 min-w-[55%] sm:min-w-[50%]">
           <img
             src={instagramlogin}
             alt="instagram screen"
             className="rounded-lg object-cover object-top h-full w-full drop-shadow-images shadow-images"
           />
         </div>
-        <div className="instagrammobile absolute z-40 max-w-[60%] sm:w-[30%] h-32 sm:h-80 left-2 sm:left-8 top-16 sm:top-44 transition-all duration-veryslow ease-out transform">
+        <div className="instagrammobile absolute z-30 w-[20%] sm:w-[30%] h-[80%] sm:h-80 left-[3%] sm:left-8 top-16 sm:top-44 transition-all duration-veryslow ease-out transform">
           <img
             src={instagrammobile}
             alt="instagram mobile screen"

@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <div
       id="Projects"
-      className="relative z-20 mt-48 mb-4 sm:mb-48 mx-8 sm:mx-auto max-w-screen-lg text-white/90 tracking-wider text-justify"
+      className="relative z-20 mt-24 lg:mt-48 mb-4 lg:mb-48 mx-8 sm:mx-12 lg:mx-auto max-w-screen-lg text-white/90 tracking-wider text-justify"
     >
       <h2 className="relative bg-clip-text text-transparent bg-gradient-to-br from-lighter to-white text-center text-lg sm:text-3xl font-extrabold leading-6 tracking-widest mb-2 sm:mb-5">
         PROJECTS

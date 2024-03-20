@@ -17,12 +17,12 @@ const AboutMe = () => {
   return (
     <div
       id="About"
-      className="relative mt-48 sm:mt-72 mb-16 mx-8 sm:mx-auto max-w-screen-lg text-white/90 tracking-wider sm:text-justify parallax-wrap"
+      className="relative mt-32 lg:mt-48 lg:mt-72 sm:mb-6 lg:mb-16 mx-8 sm:mx-12 lg:mx-auto max-w-screen-lg text-white/90 tracking-wider lg:text-justify parallax-wrap"
     >
-      <h2 className="bg-clip-text text-transparent bg-gradient-to-br from-lighter to-white text-center text-lg sm:text-3xl font-extrabold leading-6 tracking-widest mb-2 sm:mb-5">
+      <h2 className="bg-clip-text text-transparent bg-gradient-to-br from-lighter to-white text-center text-lg lg:text-3xl font-extrabold leading-6 tracking-widest mb-2 lg:mb-5">
         A LITTLE ABOUT ME
       </h2>
-      <div className="flex justify-center items-center mb-2 sm:mb-5 ">
+      <div className="flex justify-center items-center mb-2 lg:mb-5 ">
         <svg
           className="max-w-3 -rotate-90 animate-rotate-forward-underline"
           viewBox="0 0 100 100"
@@ -35,7 +35,7 @@ const AboutMe = () => {
             r="45"
           />
         </svg>
-        <div className="w-56 sm:w-96 border-lightest border-b opacity-60"></div>
+        <div className="w-56 lg:w-96 border-lightest border-b opacity-60"></div>
         <svg
           className="max-w-3 -rotate-90 animate-rotate-backward-underline"
           viewBox="0 0 100 100"
@@ -49,13 +49,13 @@ const AboutMe = () => {
           />
         </svg>
       </div>
-      <p className="aboutmetext mt-0 sm:mt-24 font-thin sm:text-base text-xs leading-4 sm:leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
+      <p className="aboutmetext mt-0 sm:mt-6 lg:mt-24 font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
         {
           "I'm David Bean, and you can find me in a small town called Dewsbury, coding away at my computer most hours of the day while my three monitors surround me. Completely self-driven, I've been focused on studying independently for roughly two years, and I've enjoyed it wholeheartedly. I started with HTML, CSS, and JavaScript, before gradually expanding my knowledge and exploring React, Node, MongoDB, and then most recently PHP, Laravel, and MySQL. Outside of programming I'm a thorougher enjoyer of movies, television shows, and music (well, who isn't?)."
         }
       </p>
 
-      <p className="aboutmetext mt-5 font-thin sm:text-base text-xs leading-4 sm:leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
+      <p className="aboutmetext mt-5 font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
         {
           "Now the important part, what can I actually do? Have a look at the skills I'm comfortable with below!"
         }
@@ -63,57 +63,39 @@ const AboutMe = () => {
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden sm:block bottom-96 left-48 max-w-10"
+        className="absolute star-parallax hidden lg:block bottom-96 left-48 max-w-10"
         value="-1"
       />
-      {/* <img
-        src={star}
-        alt="star"
-        className="absolute star-parallax hidden sm:block max-w-10 top-72 left-48 opacity-60"
-                value="-2"
-      /> */}
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden sm:block max-w-10 bottom-96 right-48 opacity-10"
+        className="absolute star-parallax hidden lg:block max-w-10 bottom-96 right-48 opacity-10"
         value="-2"
       />
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden sm:block max-w-10 top-96 -left-60 opacity-70"
+        className="absolute star-parallax hidden lg:block max-w-10 top-96 -left-60 opacity-70"
         value="5"
       />
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden sm:block max-w-10 top-0 -right-40 opacity-80"
+        className="absolute star-parallax hidden lg:block max-w-10 top-0 -right-40 opacity-80"
         value="1"
       />
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden sm:block max-w-10 -top-24 -left-96 opacity-50"
+        className="absolute star-parallax hidden lg:block max-w-10 -top-24 -left-96 opacity-50"
         value="-4"
       />
-      {/* <img
-        src={star}
-        alt="star"
-        className="absolute star-parallax hidden sm:block max-w-10 -bottom-32 right-48 opacity-80"
-                value="-2"
-      /> */}
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden sm:block max-w-10 top-96 -right-1/3 opacity-50"
+        className="absolute star-parallax hidden lg:block max-w-10 top-96 -right-1/3 opacity-50"
         value="3"
       />
-      {/* <img
-        src={star}
-        alt="star"
-        className="absolute star-parallax hidden sm:block max-w-10 top-2 right-1/2 opacity-80"
-                value="-2"
-      /> */}
     </div>
   );
 };

@@ -26,8 +26,8 @@ const ProjectBeeBuddies = () => {
   }, []);
 
   return (
-    <div className="relative mt-0 sm:mt-24 flex flex-col sm:flex-row w-full gap-6 sm:gap-10 parallax-wrap">
-      <div className="flex flex-col w-full sm:w-[40%] justify-center pt-4 sm:pt-12">
+    <div className="relative mt-0 lg:mt-24 flex flex-col lg:flex-row w-full gap-6 sm:gap-10 parallax-wrap">
+      <div className="flex flex-col w-full lg:w-[40%] justify-center pt-4 sm:pt-12">
         <h3 className="text-white/40 text-left text-xs sm:text-sm font-light font-outfit tracking-widest mb-3 sm:mb-5">
           <a href="https://www.beebuddies.co.uk">
             BeeBuddies
@@ -54,21 +54,21 @@ const ProjectBeeBuddies = () => {
           A BUZZING SOCIAL MEDIA
         </h3>
 
-        <p className="projectdesc font-thin sm:text-base text-xs leading-4 sm:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500 mb-3 sm:mb-5">
+        <p className="projectdesc font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500 mb-3 sm:mb-5">
           BeeBuddies is a social media platform crafted with a unique front-end
           client built on React, complemented by a back-end API that is curated
           through RESTful practices. This dynamic combination utilizes NodeJS
           and Express, coupled with MongoDB for database storage.
         </p>
 
-        <p className="projectdesc font-thin sm:text-base text-xs leading-4 sm:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500">
+        <p className="projectdesc font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500">
           Feel free to log in as a guest and have a look around.
         </p>
 
-        <div className="mt-4 sm:mt-10 flex gap-6 justify-end pr-6 ">
+        <div className="mt-4 lg:mt-10 flex gap-4 sm:gap-6 justify-end pr-6 ">
           <svg
             viewBox="0 0 128 128"
-            className="w-8 sm:w-10 rounded-lg transform hover:scale-125 duration-300 ease-in-out"
+            className="w-6 sm:w-10 rounded-lg transform hover:scale-125 duration-300 ease-in-out"
           >
             <path
               fill="url(#a)"
@@ -131,7 +131,7 @@ const ProjectBeeBuddies = () => {
 
           <svg
             viewBox="0 0 128 128"
-            className="w-8 sm:w-10 hover:scale-125 duration-300 ease-in-out"
+            className="w-6 sm:w-10 hover:scale-125 duration-300 ease-in-out"
           >
             <path
               fillRule="evenodd"
@@ -233,7 +233,7 @@ const ProjectBeeBuddies = () => {
 
           <svg
             viewBox="0 0 128 128"
-            className="w-8 sm:w-10 rounded-lg hover:scale-125 duration-300 ease-in-out"
+            className="w-6 sm:w-10 rounded-lg hover:scale-125 duration-300 ease-in-out"
           >
             <g fill="#EAfaff">
               <circle cx="64" cy="64" r="11.4"></circle>
@@ -242,8 +242,8 @@ const ProjectBeeBuddies = () => {
           </svg>
         </div>
       </div>
-      <div className="w-full h-48 sm:w-[600px] sm:h-96 relative">
-        <div className="beebuddiesmain absolute right-0 z-20 h-28 sm:h-56 max-w-[70%] sm:max-w-[60%] top-1/4 transition-all duration-veryslow ease-out transform">
+      <div className="w-full h-[40vw] sm:w-[600px] sm:h-96 relative sm:mx-auto">
+        <div className="beebuddiesmain absolute sm:right-0 sm:left-auto left-[30%] z-20 h-[80%] sm:h-56 max-w-[70%] sm:max-w-[60%] top-1/4 transition-all duration-veryslow ease-out transform">
           <video
             autoPlay
             muted
@@ -254,14 +254,14 @@ const ProjectBeeBuddies = () => {
             type="video/webm"
           />
         </div>
-        <div className="absolute z-10 h-24 sm:h-52 max-w-[55%] sm:max-w-[50%]">
+        <div className="absolute z-10 h-[70%] sm:h-52 max-w-[55%] sm:max-w-[50%]">
           <img
             src={beebuddieslogin}
             alt="beebuddies login screen"
             className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
           />
         </div>
-        <div className="beebuddiesmobile absolute z-30 max-w-[60%] sm:w-[30%] h-32 sm:h-80 left-2 sm:left-8 top-16 sm:top-44 transition-all duration-veryslow ease-out transform">
+        <div className="beebuddiesmobile absolute z-30 w-[20%] sm:w-[30%] h-[80%] sm:h-80 left-[3%] sm:left-8 top-16 sm:top-44 transition-all duration-veryslow ease-out transform">
           <img
             src={beebuddiesmobile}
             alt="beebuddies mobile screen"
