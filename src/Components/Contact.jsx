@@ -57,7 +57,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Neil Armstrong"
-              className="pb-1 pl-0.5 text-xs lg:text-sm placeholder-white/30 bg-transparent border-b border-white/20 font-outfit font-light tracking-wide outline-0 autofill:shadow-none"
+              className="pb-1 pl-0.5 text-xs lg:text-sm placeholder-white/30 bg-transparent border-b border-white/20 font-outfit font-light tracking-wide outline-none autofill:shadow-none"
               required
             ></input>
           </div>
@@ -73,7 +73,7 @@ const Contact = () => {
               id="email"
               type="email"
               name="email"
-              className="pb-1 pl-0.5 text-xs lg:text-sm placeholder-white/30 bg-transparent border-b border-white/20 font-outfit font-light tracking-wide outline-0 autofill:shadow-none"
+              className="pb-1 pl-0.5 text-xs lg:text-sm placeholder-white/30 bg-transparent border-b border-white/20 font-outfit font-light tracking-wide outline-none autofill:shadow-none"
               placeholder="jupiter@gmail.com"
               required
             ></input>
