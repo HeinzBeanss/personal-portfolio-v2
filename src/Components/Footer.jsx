@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="h-12 sm:h-16 border-t border-white/20 flex justify-center items-center gap-2 ">
+    <footer className="py-8 h-12 sm:h-20 border-t border-white/20 flex justify-center items-center gap-2 ">
       <a
         href="https://github.com/HeinzBeanss"
         className="text-center text-lightest text-xs sm:text-sm font-thin tracking-wider"
