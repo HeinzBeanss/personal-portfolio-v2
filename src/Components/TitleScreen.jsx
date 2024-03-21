@@ -36,7 +36,7 @@ const TitleText = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax sm:block absolute max-w-10 bottom-52 sm:bottom-32 right-4 sm:right-48 opacity-30"
+        className="star-parallax sm:block absolute max-w-10 bottom-96 sm:bottom-32 right-4 sm:right-48 opacity-30"
         value="6"
       />
       <img
