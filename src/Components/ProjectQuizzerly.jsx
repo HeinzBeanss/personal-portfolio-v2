@@ -1,4 +1,4 @@
-import quizzerlymain from "../assets/projects/quizzerly/quizzerlymain.webm";
+import quizzerlymain from "../assets/projects/quizzerly/quizzerlymain.mp4";
 import quizzerlymobile from "../assets/projects/quizzerly/quizzerlymobile.png";
 import quizzerlylogin from "../assets/projects/quizzerly/quizzerlylogin.png";
 import star from "../assets/star2.svg";

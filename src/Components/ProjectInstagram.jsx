@@ -1,4 +1,4 @@
-import instagrammain from "../assets/projects/instagram/instagrammain.webm";
+import instagrammain from "../assets/projects/instagram/instagrammain.mp4";
 import instagrammobile from "../assets/projects/instagram/instagrammobile.png";
 import instagramlogin from "../assets/projects/instagram/instagramlogin.png";
 import star from "../assets/star2.svg";

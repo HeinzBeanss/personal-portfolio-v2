@@ -1,4 +1,4 @@
-import beebuddiesmain from "../assets/projects/beebuddies/beebuddiesmain.webm";
+import beebuddiesmain from "../assets/projects/beebuddies/beebuddiesmain.mp4";
 import beebuddiesmobile from "../assets/projects/beebuddies/beebuddiesmobile.png";
 import beebuddieslogin from "../assets/projects/beebuddies/beebuddieslogin.png";
 import star from "../assets/star2.svg";
