@@ -49,13 +49,13 @@ const AboutMe = () => {
           />
         </svg>
       </div>
-      <p className="aboutmetext mt-0 sm:mt-6 lg:mt-24 font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
+      <p className="aboutmetext mt-0 sm:mt-6 lg:mt-24 font-thin lg:text-base text-sm leading-5 lg:leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
         {
           "I'm David Bean, and you can find me in a small town called Dewsbury, coding away at my computer most hours of the day while my three monitors surround me. Completely self-driven, I've been focused on studying independently for roughly two years, and I've enjoyed it wholeheartedly. I started with HTML, CSS, and JavaScript, before gradually expanding my knowledge and exploring React, Node, MongoDB, and then most recently PHP, Laravel, and MySQL. Outside of programming I'm a thorougher enjoyer of movies, television shows, and music (well, who isn't?)."
         }
       </p>
 
-      <p className="aboutmetext mt-5 font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
+      <p className="aboutmetext mt-5 font-thin lg:text-base text-sm leading-5 lg:leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500">
         {
           "Now the important part, what can I actually do? Have a look at the skills I'm comfortable with below!"
         }

@@ -54,14 +54,14 @@ const ProjectQuizzerly = () => {
           A MODERN QUIZ PLAYGROUND
         </h3>
 
-        <p className="projectdesc font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 text-left mb-3 sm:mb-5 font-outfit opacity-0 transform translate-x-5 transition-all linear duration-500">
+        <p className="projectdesc font-thin lg:text-base text-sm leading-5 lg:leading-6 text-left mb-3 sm:mb-5 font-outfit opacity-0 transform translate-x-5 transition-all linear duration-500">
           Quizzerly is a versatile quiz website with a modern twist, integrating
           Artificial Intelligence for seamless quiz generation via ChatGPT.
           Users choose any topic they prefer and adjust the number of questions,
           and answer options. Powered by PHP with Laravel and MySQL.
         </p>
 
-        <p className="projectdesc font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 text-left font-outfit opacity-0 transform translate-x-5 transition-all linear duration-500">
+        <p className="projectdesc font-thin lg:text-base text-sm leading-5 lg:leading-6 text-left font-outfit opacity-0 transform translate-x-5 transition-all linear duration-500">
           Whether you want to test others on certain knowledge, or test
           yourself, there&apos;s no better place to do so.
         </p>
@@ -136,6 +136,7 @@ const ProjectQuizzerly = () => {
             muted
             loop
             src={quizzerlymain}
+            controls={false}
             alt="Quizzerly Website"
             className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
             type="video/mp4"

@@ -36,7 +36,7 @@ const Contact = () => {
           />
         </svg>
       </div>
-      <p className="aboutmetext mb-8 mt-5 font-thin text-xs lg:text-base sm:text-sm leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500 text-center">
+      <p className="aboutmetext mb-8 mt-5 font-thin lg:text-base text-sm leading-6 font-outfit opacity-0 transform translate-y-5 transition-all linear duration-500 text-center">
         You&apos;re more than welcome to drop me an email using the form below.
       </p>
       <form

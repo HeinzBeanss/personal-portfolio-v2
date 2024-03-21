@@ -53,7 +53,7 @@ const ProjectInstagram = () => {
           AN INSTAGRAM CLONE
         </h3>
 
-        <p className="projectdesc font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500">
+        <p className="projectdesc font-thin lg:text-base text-sm leading-5 lg:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500">
           A recreation of the popular social media platform Instagram, the goal
           here was to achieve around 80% accuracy of the real website. Using
           React for the front-end and Firebase for the backend, users can create
@@ -118,6 +118,7 @@ const ProjectInstagram = () => {
             muted
             loop
             src={instagrammain}
+            controls={false}
             alt="instagram Website"
             className="rounded-lg object-cover object-left h-full w-full drop-shadow-images shadow-images"
             type="video/mp4"

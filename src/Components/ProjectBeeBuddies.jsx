@@ -54,14 +54,14 @@ const ProjectBeeBuddies = () => {
           A BUZZING SOCIAL MEDIA
         </h3>
 
-        <p className="projectdesc font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500 mb-3 sm:mb-5">
+        <p className="projectdesc font-thin lg:text-base text-sm leading-5 lg:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500 mb-3 sm:mb-5">
           BeeBuddies is a social media platform crafted with a unique front-end
           client built on React, complemented by a back-end API that is curated
           through RESTful practices. This dynamic combination utilizes NodeJS
           and Express, coupled with MongoDB for database storage.
         </p>
 
-        <p className="projectdesc font-thin lg:text-base sm:text-sm text-xs leading-4 lg:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500">
+        <p className="projectdesc font-thin lg:text-base text-sm leading-5 lg:leading-6 text-left font-outfit opacity-0 transform -translate-x-5 transition-all linear duration-500">
           Feel free to log in as a guest and have a look around.
         </p>
 
@@ -248,6 +248,7 @@ const ProjectBeeBuddies = () => {
             autoPlay
             muted
             loop
+            controls={false}
             src={beebuddiesmain}
             alt="BeeBuddies Website"
             className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
