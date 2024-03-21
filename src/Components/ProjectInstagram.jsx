@@ -112,7 +112,7 @@ const ProjectInstagram = () => {
         </div>
       </div>
       <div className="w-full h-[40vw] sm:w-[600px] sm:h-96 relative sm:mx-auto">
-        <div className="instagrammain absolute sm:right-0 sm:left-auto left-[30%] z-20 h-[80%] sm:h-56 max-w-[70%] sm:max-w-[60%] top-1/4 transition-all duration-veryslow ease-out transform">
+        <div className="instagrammain absolute sm:right-0 sm:left-auto left-[35%] z-20 h-[80%] sm:h-56 max-w-[70%] sm:max-w-[60%] top-1/4 transition-all duration-veryslow ease-out transform">
           <video
             autoPlay
             muted
@@ -147,7 +147,7 @@ const ProjectInstagram = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 top-72 -left-96 opacity-60"
+        className="star-parallax hidden sm:block absolute max-w-10 top-72 -left-96 opacity-50"
         value="-4"
       />
       <img
@@ -159,19 +159,19 @@ const ProjectInstagram = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 -bottom-72 right-32 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 -bottom-72 right-32 opacity-40"
         value="5"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 top-60 -right-64 opacity-60"
+        className="star-parallax hidden sm:block absolute max-w-10 top-60 -right-64 opacity-40"
         value="2"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 -bottom-48 left-44 opacity-40"
+        className="star-parallax hidden sm:block absolute max-w-10 -bottom-48 left-44 opacity-20"
         value="1"
       />
     </div>

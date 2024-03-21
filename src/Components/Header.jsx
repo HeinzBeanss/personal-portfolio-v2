@@ -24,7 +24,9 @@ const Header = () => {
         navbarVisibility ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="opacity-40 hover:opacity-80">Logo</div>
+      <div className="opacity-40 hover:opacity-80 tracking-widest">
+        <a href="https://www.davidbean.dev">David Bean</a>
+      </div>
 
       <ul className="flex gap-8 tracking-widest ">
         <Link activeClass="active" smooth spy to={"About"}>

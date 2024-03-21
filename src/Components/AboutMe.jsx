@@ -63,7 +63,7 @@ const AboutMe = () => {
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden lg:block bottom-96 left-48 max-w-10"
+        className="absolute star-parallax hidden lg:block bottom-96 left-48 max-w-10 opacity-30"
         value="-1"
       />
       <img
@@ -75,25 +75,25 @@ const AboutMe = () => {
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden lg:block max-w-10 top-96 -left-60 opacity-70"
+        className="absolute star-parallax hidden lg:block max-w-10 top-96 -left-60 opacity-40"
         value="5"
       />
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden lg:block max-w-10 top-0 -right-40 opacity-80"
+        className="absolute star-parallax hidden lg:block max-w-10 top-0 -right-40 opacity-50"
         value="1"
       />
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden lg:block max-w-10 -top-24 -left-96 opacity-50"
+        className="absolute star-parallax hidden lg:block max-w-10 -top-24 -left-96 opacity-20"
         value="-4"
       />
       <img
         src={star}
         alt="star"
-        className="absolute star-parallax hidden lg:block max-w-10 top-96 -right-1/3 opacity-50"
+        className="absolute star-parallax hidden lg:block max-w-10 top-96 -right-1/3 opacity-30"
         value="3"
       />
     </div>

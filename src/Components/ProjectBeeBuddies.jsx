@@ -243,7 +243,7 @@ const ProjectBeeBuddies = () => {
         </div>
       </div>
       <div className="w-full h-[40vw] sm:w-[600px] sm:h-96 relative sm:mx-auto">
-        <div className="beebuddiesmain absolute sm:right-0 sm:left-auto left-[30%] z-20 h-[80%] sm:h-56 max-w-[70%] sm:max-w-[60%] top-1/4 transition-all duration-veryslow ease-out transform">
+        <div className="beebuddiesmain absolute sm:right-0 sm:left-auto left-[35%] z-20 h-[80%] sm:h-56 max-w-[70%] sm:max-w-[60%] top-1/4 transition-all duration-veryslow ease-out transform">
           <video
             autoPlay
             muted
@@ -272,31 +272,25 @@ const ProjectBeeBuddies = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute -top-60 -left-80 max-w-10"
+        className="star-parallax hidden sm:block absolute -top-60 -left-80 max-w-10 opacity-40"
         value="2"
       />
-      {/* <img
-        src={star}
-        alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 top-24 -left-48 opacity-60"
-        value="4"
-      /> */}
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 bottom-80 -right-40 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 bottom-80 -right-40 opacity-50"
         value="4"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 -top-40 -right-72 opacity-30"
+        className="star-parallax hidden sm:block absolute max-w-10 -top-40 -right-72 opacity-20"
         value="6"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 top-48 -inset-x-1/3 opacity-40"
+        className="star-parallax hidden sm:block absolute max-w-10 top-48 -inset-x-1/3 opacity-30"
         value="-3"
       />
       <img
@@ -308,19 +302,19 @@ const ProjectBeeBuddies = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 top-1/2 -right-80 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 top-1/2 -right-80 opacity-50"
         value="-2"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 top-32 right-1/3 opacity-40"
+        className="star-parallax hidden sm:block absolute max-w-10 top-32 right-1/3 opacity-30"
         value="3"
       />{" "}
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 -top-48 left-48 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 -top-48 left-48 opacity-30"
         value="-2"
       />
     </div>

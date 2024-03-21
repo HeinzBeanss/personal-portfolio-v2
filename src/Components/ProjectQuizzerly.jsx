@@ -130,7 +130,7 @@ const ProjectQuizzerly = () => {
         </div>
       </div>
       <div className="w-full h-[40vw] sm:w-[600px] sm:h-96 relative sm:mx-auto">
-        <div className="quizzerlymain absolute sm:right-auto right-[30%] sm:left-0 z-30 top-1/4 z-20 h-[80%] sm:h-56 max-w-[70%] sm:max-w-[60%] transition-all duration-veryslow ease-out transform">
+        <div className="quizzerlymain absolute sm:right-auto right-[35%] sm:left-0 z-30 top-1/4 z-20 h-[80%] sm:h-56 max-w-[70%] sm:max-w-[60%] transition-all duration-veryslow ease-out transform">
           <video
             autoPlay
             muted
@@ -159,19 +159,19 @@ const ProjectQuizzerly = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute -top-24 -left-96 max-w-10"
+        className="star-parallax hidden sm:block absolute -top-24 -left-96 max-w-10 opacity-40"
         value="-2"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 top-32 -left-48 opacity-60"
+        className="star-parallax hidden sm:block absolute max-w-10 top-32 -left-48 opacity-30"
         value="-3"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 bottom-80 -right-40 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 bottom-80 -right-40 opacity-40"
         value="3"
       />
       <img
@@ -183,13 +183,13 @@ const ProjectQuizzerly = () => {
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 top-80 -right-64 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 top-80 -right-64 opacity-30"
         value="-3"
       />
       <img
         src={star}
         alt="star"
-        className="star-parallax hidden sm:block absolute max-w-10 -bottom-48 -left-72 opacity-80"
+        className="star-parallax hidden sm:block absolute max-w-10 -bottom-48 -left-72 opacity-20"
         value="1"
       />
     </div>
