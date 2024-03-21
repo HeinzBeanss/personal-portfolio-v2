@@ -251,7 +251,7 @@ const ProjectBeeBuddies = () => {
             src={beebuddiesmain}
             alt="BeeBuddies Website"
             className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
-            type="video/webm"
+            type="video/mp4"
           />
         </div>
         <div className="absolute z-10 h-[70%] sm:h-52 max-w-[55%] sm:max-w-[50%]">

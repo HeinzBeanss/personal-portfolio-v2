@@ -120,10 +120,10 @@ const ProjectInstagram = () => {
             src={instagrammain}
             alt="instagram Website"
             className="rounded-lg object-cover object-left h-full w-full drop-shadow-images shadow-images"
-            type="video/webm"
+            type="video/mp4"
           />
         </div>
-        <div className="absolute z-10 h-[70%] sm:h-52 min-w-[55%] sm:min-w-[50%]">
+        <div className="absolute z-10 h-[70%] sm:h-52 max-w-[55%] min-w-[55%] sm:min-w-0 sm:max-w-[50%]">
           <img
             src={instagramlogin}
             alt="instagram screen"

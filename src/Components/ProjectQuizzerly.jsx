@@ -138,10 +138,10 @@ const ProjectQuizzerly = () => {
             src={quizzerlymain}
             alt="Quizzerly Website"
             className="rounded-lg object-cover object-center h-full w-full drop-shadow-images shadow-images"
-            type="video/webm"
+            type="video/mp4"
           />
         </div>
-        <div className="absolute right-0 z-20 h-[70%] sm:h-52 min-w-[55%] sm:min-w-0 sm:max-w-[50%]">
+        <div className="absolute right-0 z-20 h-[70%] sm:h-52 max-w-[55%] min-w-[55%] sm:min-w-0 sm:max-w-[50%]">
           <img
             src={quizzerlylogin}
             alt="Quizzerly screen"
