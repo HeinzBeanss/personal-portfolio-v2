@@ -117,6 +117,7 @@ const ProjectInstagram = () => {
             autoPlay
             muted
             loop
+            playsInline
             src={instagrammain}
             controls={false}
             alt="instagram Website"

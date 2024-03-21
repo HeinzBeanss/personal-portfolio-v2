@@ -31,7 +31,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="font-roboto relative h-full">
+    <div className="font-roboto relative h-full bg-space2">
       <div className="w-full relative bg-gradient-to-br from-space via-space2 via-60% to-space overflow-hidden">
         <Header />
         <TitleScreen />

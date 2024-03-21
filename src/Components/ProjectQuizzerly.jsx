@@ -135,6 +135,7 @@ const ProjectQuizzerly = () => {
             autoPlay
             muted
             loop
+            playsInline
             src={quizzerlymain}
             controls={false}
             alt="Quizzerly Website"

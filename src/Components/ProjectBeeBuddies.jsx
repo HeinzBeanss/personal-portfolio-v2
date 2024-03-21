@@ -248,6 +248,7 @@ const ProjectBeeBuddies = () => {
             autoPlay
             muted
             loop
+            playsInline
             controls={false}
             src={beebuddiesmain}
             alt="BeeBuddies Website"
